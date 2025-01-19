@@ -29,12 +29,11 @@
   --helvetica: "helvetica";
 }
 body {
-  font-size: var(--fs-16);
   background-color: black;
   color: var(--white-color);
 }
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
@@ -208,7 +207,7 @@ header .nav-2 ul li a i{
 .banner .banner-content h1{
   font-size: 80px;
 }
-.banner .banner-content h1 span{
+.banner .banner-content h1 span , .detail-sec .detail-content h2 span{
   color: #4d8b55;
   display: block;
 }
@@ -230,3 +229,77 @@ header .nav-2 ul li a i{
   height: 300px;
 }
 /* BANNER END */
+
+/* DETAIL_SEC START */
+.detail-sec{
+  background-color: var(--white-color);
+}
+.detail-sec .detail-content{
+  padding-top: 100px;
+}
+.detail-sec .detail-content h2 span{
+  font-size: 48px;
+  font-family: var(--poppins);
+}
+.detail-sec .detail-content h2{
+  color: #000;
+  font-size: var(--fs-44);
+  font-family: var(--poppins);
+}
+.detail-sec .detail-content p{
+  color: black;
+  font-size: 14px;
+  font-family: var(--poppins);
+}
+.detail-sec .detail-content .info{
+  margin: 30px 0px 48px 32px;
+  vertical-align: middle;
+}
+.detail-sec .detail-content .info .download-detail{
+  margin-bottom: 20px;
+}
+.detail-sec .detail-content .info .download-detail i , .detail-sec .detail-content .info .call-detail i{
+  color: #4d8b55;
+  font-size: var(--fs-24);
+  margin-right: 10px;
+}
+.detail-sec .detail-content .info .download-detail span ,.detail-sec .detail-content .info .call-detail span{
+  color: #000;
+  font-size: 14px;
+  font-family: var(--poppins);
+  font-weight: var(--fw-700);
+}
+.detail-sec .detail-content .btn{
+  display: flex;
+  margin-bottom: 100px;
+}
+.detail-sec .detail-content .btn-1{
+  padding: 22px 30px 22px;
+  width: 250px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 48px;
+  margin-right: 20px;
+}
+.detail-sec .detail-content .btn-1 a ,.detail-sec .detail-content .btn-2 a{
+  color: var(--white-color);
+  font-family: var(--poppins);
+  font-weight: var(--fw-700);
+}
+.detail-sec .detail-content .btn-2{
+  padding: 22px 30px 22px;
+  width: 250px;
+  font-size: 14px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 48px;
+}
+.detail-sec .detail-image img{
+  margin-top: 60px;
+}
+/* DETAIL_SEC END */
