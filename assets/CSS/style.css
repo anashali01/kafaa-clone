@@ -137,9 +137,9 @@ img {
 }
 /* HEADER START */
 header {
-  padding-top: 30px;
+
   width: 100%;
-  height: 300px;
+  padding: 30px 0;
   position: absolute;
   z-index: 99;
 }
@@ -200,13 +200,17 @@ header .nav-2 ul li a i{
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
+  background-color: #000000d6;
+  background-blend-mode: darken;
   width: 100%;
   height: 100%;
+  top: 0;
   z-index: -1;
 }
 .banner{
   position: relative;
   z-index: 1;
+  padding: 300px 0px 0px 0px;
 }
 .banner .banner-content{
   text-align: center;
@@ -270,7 +274,7 @@ header .nav-2 ul li a i{
 .detail-sec .detail-content .info .download-detail{
   margin-bottom: 20px;
 }
-.detail-sec .detail-content .info .download-detail i , .detail-sec .detail-content .info .call-detail i{
+.detail-sec .detail-content .info .download-detail i , .detail-sec .detail-content .info .call-detail i {
   color: #4d8b55;
   font-size: var(--fs-24);
   margin-right: 10px;
@@ -315,3 +319,88 @@ header .nav-2 ul li a i{
   margin-top: 60px;
 }
 /* DETAIL_SEC END */
+
+/* COFFEE TYPE_SECTION START */
+
+.coffee-type .coffee-overlay{
+  background-image: 
+  url('../IMAGES/paper_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.coffee-type .text{
+  text-align: center;
+  padding: 150px 150px 120px 150px;
+}
+.coffee-type .text h6{
+  font-size: 24px;
+  font-family: var(--poppins);
+  font-weight: var(--fw-700);
+  color: black;
+}
+.coffee-type .text h6 span{
+  color: var(--primary-color);
+}
+
+.coffee-type .type-1 .img ,.coffee-type .type-2 .img, .coffee-type .type-3 .img ,.coffee-type .type-4 .img{
+  background-image: url('../IMAGES/01_coffee.jpg');
+   margin: 0 auto;
+    width: 260px;
+    height: 260px;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-clip: border-box;
+    background-position: 50%;
+    position: relative;
+}
+.coffee-type .type-1 .img .number-1,.coffee-type .type-2 .img .number-2 ,.coffee-type .type-3 .img .number-3 ,.coffee-type .type-4 .img .number-4{
+  position: absolute;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px 21px;
+  top: 90px;
+  left: -40px;
+}
+.coffee-type .type-1 .number-1 h3,.coffee-type .type-2 .number-2 h3 ,.coffee-type .type-3 .number-3 h3 ,.coffee-type .type-4 .number-4 h3{
+  font-family: var(--poppins);
+  color: var(--white-color);
+  font-size: 30px;
+}
+.coffee-type .type-2 .img{
+  background-image: url('../IMAGES/02_coffee.jpg');
+
+}
+.coffee-type .type-3 .img{
+  background-image: url('../IMAGES/03_coffee.jpg');
+}
+.coffee-type .type-4 .img{
+  background-image: url('../IMAGES/04_coffee.jpg');
+}
+.coffee-type .type-1 ,.coffee-type .type-2 ,.coffee-type .type-3 ,.coffee-type .type-4{
+  text-align: center;
+ 
+}
+.coffee-type .type-1 h6 ,.coffee-type .type-2 h6 ,.coffee-type .type-3 h6 ,.coffee-type .type-4 h6{
+  margin: 34px 0 12px 0;
+  font-size: 24px;
+  display: block;
+  width: 100%;
+  color: black;
+  font-family: var(--poppins);
+}
+.coffee-type .type-1 p ,.coffee-type .type-2 p ,.coffee-type .type-3 p ,.coffee-type .type-4 p{
+  font-size: 14px;
+  color: black;
+  font-family: var(--poppins);
+}
+/* COFFEE TYPE_SECTION END */
+
+.aroma-sec .aroma-1{
+  background-image: url('../IMAGES/aroma_photo_01.jpg');
+  background-position: center center;
+  background-size: cover;
+}
