@@ -65,7 +65,10 @@ img {
   display: block;
   max-width: 100%;
 }
-
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .d-flex {
   display: flex;
   flex-wrap: wrap;
@@ -399,12 +402,71 @@ header .nav-2 ul li a i{
 }
 /* COFFEE TYPE_SECTION END */
 .container-aroma{
-  max-width: 1400px;
+  max-width: 1500px;
+}
+.aroma-sec{
+  background-color: #4d8b55;
+  height: 800px;
 }
 .aroma-sec .aroma-1{
   background-image: url('../IMAGES/aroma_photo_01.jpg');
   background-position: center center;
   background-size: cover;
-  height: 700px;
   width: 100%;
+  height: 800px;
+}
+.aroma-sec .aroma-content .branch-overlay{
+  background-image: url('../IMAGES/branch-bg.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+ width: 100%;
+ height: 650px;
+ opacity: 0.5;
+}
+.aroma-sec .aroma-content{
+  padding: 150px 40px 50px 40px;
+  line-height: 1;
+  position: relative;
+}
+.aroma-sec .aroma-content h2{
+  font-size: 80px;
+  color: var(--white-color);
+  font-family: var(--poppins);
+  font-weight: 700;
+}
+.aroma-sec .aroma-content span{
+  font-size: 80px;
+  color: black;
+  display: block;
+  font-family: var(--poppins);
+  font-weight: 700;
+}
+.aroma-sec .aroma-content p{
+  padding: 50px 20px 100px 0;
+  font-size: 14px;
+  font-family: var(--poppins);
+  font-weight: 200;
+}
+.aroma-sec .aroma-content .btn{
+  background-color: #000;
+  padding: 22px 30px;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+.aroma-sec .aroma-content .btn a{
+  color: var(--white-color);
+  font-family: var(--poppins);
+  font-weight: var(--fw-600);
+}
+.aroma-sec .aroma-3{
+  background-image: url('../IMAGES/aroma_photo_02.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 800px;
+  width: 515px;
+  margin-right: -20px;
 }
