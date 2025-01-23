@@ -398,9 +398,13 @@ header .nav-2 ul li a i{
   font-family: var(--poppins);
 }
 /* COFFEE TYPE_SECTION END */
-
+.container-aroma{
+  max-width: 1400px;
+}
 .aroma-sec .aroma-1{
   background-image: url('../IMAGES/aroma_photo_01.jpg');
   background-position: center center;
   background-size: cover;
+  height: 700px;
+  width: 100%;
 }
